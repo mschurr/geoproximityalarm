@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		430E68E61837A067008872DA /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 430E68E51837A067008872DA /* Alarm.m */; };
+		430ED4961833106900838CAE /* iconDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4951833106900838CAE /* iconDelete.png */; };
+		430ED4991833113700838CAE /* iconDelete-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4971833113700838CAE /* iconDelete-normal.png */; };
+		430ED49A1833113700838CAE /* iconDelete-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4981833113700838CAE /* iconDelete-normal@2x.png */; };
+		430ED49D1833184700838CAE /* 1secondsilence.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED49C1833184700838CAE /* 1secondsilence.caf */; };
+		430ED4A41833189000838CAE /* Beeps-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4A21833189000838CAE /* Beeps-looped.caf */; };
+		430ED4A51833189000838CAE /* Beeps.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4A31833189000838CAE /* Beeps.caf */; };
+		430ED4AC1833189F00838CAE /* Boings-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4A61833189F00838CAE /* Boings-looped.caf */; };
+		430ED4AD1833189F00838CAE /* Boings.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4A71833189F00838CAE /* Boings.caf */; };
+		430ED4AE1833189F00838CAE /* BoxingBell-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4A81833189F00838CAE /* BoxingBell-looped.caf */; };
+		430ED4AF1833189F00838CAE /* BoxingBell.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4A91833189F00838CAE /* BoxingBell.caf */; };
+		430ED4B01833189F00838CAE /* Buzzer-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4AA1833189F00838CAE /* Buzzer-looped.caf */; };
+		430ED4B11833189F00838CAE /* Buzzer.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4AB1833189F00838CAE /* Buzzer.caf */; };
+		430ED4B4183318B600838CAE /* Charge-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4B2183318B600838CAE /* Charge-looped.caf */; };
+		430ED4B5183318B600838CAE /* Charge.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4B3183318B600838CAE /* Charge.caf */; };
+		430ED4B8183318BF00838CAE /* CongaParty-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4B6183318BF00838CAE /* CongaParty-looped.caf */; };
+		430ED4B9183318BF00838CAE /* CongaParty.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4B7183318BF00838CAE /* CongaParty.caf */; };
+		430ED4BE183318D100838CAE /* EggTimer-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4BA183318D100838CAE /* EggTimer-looped.caf */; };
+		430ED4BF183318D100838CAE /* EggTimer.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4BB183318D100838CAE /* EggTimer.caf */; };
+		430ED4C0183318D100838CAE /* elephant-adjusted.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4BC183318D100838CAE /* elephant-adjusted.caf */; };
+		430ED4C1183318D100838CAE /* elephant-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4BD183318D100838CAE /* elephant-looped.caf */; };
+		430ED4C4183318DE00838CAE /* Farm-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4C2183318DE00838CAE /* Farm-looped.caf */; };
+		430ED4C5183318DE00838CAE /* Farm.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4C3183318DE00838CAE /* Farm.caf */; };
+		430ED4C81833192500838CAE /* Harp-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4C61833192500838CAE /* Harp-looped.caf */; };
+		430ED4C91833192500838CAE /* Harp.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4C71833192500838CAE /* Harp.caf */; };
+		430ED4CE1833194500838CAE /* PhoneFrenzy-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4CA1833194500838CAE /* PhoneFrenzy-looped.caf */; };
+		430ED4CF1833194500838CAE /* PhoneFrenzy.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4CB1833194500838CAE /* PhoneFrenzy.caf */; };
+		430ED4D01833194500838CAE /* Piano-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4CC1833194500838CAE /* Piano-looped.caf */; };
+		430ED4D11833194500838CAE /* Piano.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4CD1833194500838CAE /* Piano.caf */; };
+		430ED4D41833194E00838CAE /* PlaneChime-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4D21833194E00838CAE /* PlaneChime-looped.caf */; };
+		430ED4D51833194E00838CAE /* PlaneChime.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4D31833194E00838CAE /* PlaneChime.caf */; };
+		430ED4D81833195B00838CAE /* Robot-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4D61833195B00838CAE /* Robot-looped.caf */; };
+		430ED4D91833195B00838CAE /* Robot.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4D71833195B00838CAE /* Robot.caf */; };
+		430ED4DC1833196300838CAE /* SchoolBell-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4DA1833196300838CAE /* SchoolBell-looped.caf */; };
+		430ED4DD1833196300838CAE /* SchoolBell.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4DB1833196300838CAE /* SchoolBell.caf */; };
+		430ED4E01833196A00838CAE /* silence-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4DE1833196A00838CAE /* silence-looped.caf */; };
+		430ED4E11833196A00838CAE /* silence.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4DF1833196A00838CAE /* silence.caf */; };
+		430ED4E41833197200838CAE /* TerminalAccess-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4E21833197200838CAE /* TerminalAccess-looped.caf */; };
+		430ED4E51833197200838CAE /* TerminalAccess.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4E31833197200838CAE /* TerminalAccess.caf */; };
+		430ED4E81833197900838CAE /* WoodBlock-looped.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4E61833197900838CAE /* WoodBlock-looped.caf */; };
+		430ED4E91833197900838CAE /* WoodBlock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 430ED4E71833197900838CAE /* WoodBlock.caf */; };
+		430ED4EB1833201600838CAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430ED4EA1833201600838CAE /* AVFoundation.framework */; };
+		430F8940182ECE0E00C34FC1 /* GeoAlarmMasterCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F893F182ECE0E00C34FC1 /* GeoAlarmMasterCDTVC.m */; };
+		430F8943182ED8A000C34FC1 /* GeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F8942182ED89F00C34FC1 /* GeoPoint.m */; };
+		43301E121829554C00B7B832 /* cog_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 43301E0B1829554C00B7B832 /* cog_01.png */; };
+		43301E131829554C00B7B832 /* cog_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43301E0C1829554C00B7B832 /* cog_01@2x.png */; };
+		43301E141829554C00B7B832 /* globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 43301E0D1829554C00B7B832 /* globe.png */; };
+		43301E151829554C00B7B832 /* globe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43301E0E1829554C00B7B832 /* globe@2x.png */; };
+		43301E1C1829568200B7B832 /* Alarm+CD.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301E1B1829568200B7B832 /* Alarm+CD.m */; };
+		43301E1F1829572F00B7B832 /* GeoPoint+CD.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301E1E1829572F00B7B832 /* GeoPoint+CD.m */; };
+		43301E2218295A8800B7B832 /* UITableViewCellSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301E2118295A8800B7B832 /* UITableViewCellSwitch.m */; };
+		43301E2418296B9800B7B832 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43301E2318296B9800B7B832 /* AudioToolbox.framework */; };
+		43301E27182AA3ED00B7B832 /* alarm02.png in Resources */ = {isa = PBXBuildFile; fileRef = 43301E25182AA3ED00B7B832 /* alarm02.png */; };
+		43301E28182AA3ED00B7B832 /* alarm02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43301E26182AA3ED00B7B832 /* alarm02@2x.png */; };
+		43301E2B182AAD1100B7B832 /* AlarmEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 43301E2A182AAD1100B7B832 /* AlarmEvent.m */; };
+		434E04821831E26400278589 /* tableViewCell.png in Resources */ = {isa = PBXBuildFile; fileRef = 434E04801831E26400278589 /* tableViewCell.png */; };
+		434E04831831E26400278589 /* tableViewCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 434E04811831E26400278589 /* tableViewCell@2x.png */; };
+		43622EF218287AEE00E43FA8 /* Development.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43622EF118287AEE00E43FA8 /* Development.storyboard */; };
+		43622EF418287B0300E43FA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43622EF318287B0300E43FA8 /* MapKit.framework */; };
+		43622EF618287B1300E43FA8 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43622EF518287B1300E43FA8 /* CoreAudio.framework */; };
+		43622EF818287B1900E43FA8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43622EF718287B1900E43FA8 /* CoreData.framework */; };
+		43622EFA18287B2100E43FA8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43622EF918287B2100E43FA8 /* CoreFoundation.framework */; };
+		43622EFC18287B2F00E43FA8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43622EFB18287B2F00E43FA8 /* CoreLocation.framework */; };
+		43622F0018287B5600E43FA8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43622EFF18287B5600E43FA8 /* MobileCoreServices.framework */; };
+		43622F0818287C1400E43FA8 /* MapRegionSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F0718287C1400E43FA8 /* MapRegionSelectionViewController.m */; };
+		43622F0B18287D4100E43FA8 /* GeoProximityAlarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43622F0918287D4100E43FA8 /* GeoProximityAlarm.xcdatamodeld */; };
+		43622F0E18287E3200E43FA8 /* NetworkActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F0D18287E3200E43FA8 /* NetworkActivityManager.m */; };
+		43622F33182891AC00E43FA8 /* DeveloperAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F32182891AC00E43FA8 /* DeveloperAnnotation.m */; };
+		43622F3D1828A4E000E43FA8 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F381828A4E000E43FA8 /* CoreDataTableViewController.m */; };
+		43622F3E1828A4E000E43FA8 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F3A1828A4E000E43FA8 /* ImageViewController.m */; };
+		43622F3F1828A4E000E43FA8 /* RemoteImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F3C1828A4E000E43FA8 /* RemoteImageViewController.m */; };
+		43622F441828A51900E43FA8 /* CoreDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F411828A51800E43FA8 /* CoreDatabase.m */; };
+		43622F451828A51900E43FA8 /* FileCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43622F431828A51900E43FA8 /* FileCacheManager.m */; };
+		43910881180F1D8500D88EEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43910880180F1D8500D88EEA /* UIKit.framework */; };
+		43910883180F1D8500D88EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43910882180F1D8500D88EEA /* Foundation.framework */; };
+		43910885180F1D8500D88EEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43910884180F1D8500D88EEA /* CoreGraphics.framework */; };
+		4391088B180F1D8500D88EEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43910889180F1D8500D88EEA /* InfoPlist.strings */; };
+		4391088D180F1D8500D88EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391088C180F1D8500D88EEA /* main.m */; };
+		43910891180F1D8500D88EEA /* GeoAlarmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43910890180F1D8500D88EEA /* GeoAlarmAppDelegate.m */; };
+		43910893180F1D8500D88EEA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 43910892180F1D8500D88EEA /* Default.png */; };
+		43910895180F1D8500D88EEA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43910894180F1D8500D88EEA /* Default@2x.png */; };
+		43910897180F1D8500D88EEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43910896180F1D8500D88EEA /* Default-568h@2x.png */; };
+		4391089A180F1D8500D88EEA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43910898180F1D8500D88EEA /* MainStoryboard.storyboard */; };
+		4391089D180F1D8500D88EEA /* GeoAlarmMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391089C180F1D8500D88EEA /* GeoAlarmMasterViewController.m */; };
+		439108A0180F1D8500D88EEA /* GeoAlarmDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4391089F180F1D8500D88EEA /* GeoAlarmDetailViewController.m */; };
+		43A887401837D4BE00EFCE24 /* RemindersCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A8873F1837D4BE00EFCE24 /* RemindersCDTVC.m */; };
+		43A887431837D4E900EFCE24 /* AlarmsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A887421837D4E900EFCE24 /* AlarmsCDTVC.m */; };
+		43CA2CB41831DA9C00F43B08 /* tableviewbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CA2CB31831DA9C00F43B08 /* tableviewbackground.png */; };
+		43CA2CB61831DB3700F43B08 /* tableviewbackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CA2CB51831DB3700F43B08 /* tableviewbackground@2x.png */; };
+		43CF7A5F182ADEC400D43AE5 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CF7A5E182ADEC400D43AE5 /* appicon.png */; };
+		43CF7A61182ADECE00D43AE5 /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CF7A60182ADECE00D43AE5 /* appicon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		430E68E41837A067008872DA /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
+		430E68E51837A067008872DA /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
+		430ED4951833106900838CAE /* iconDelete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconDelete.png; sourceTree = "<group>"; };
+		430ED4971833113700838CAE /* iconDelete-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconDelete-normal.png"; sourceTree = "<group>"; };
+		430ED4981833113700838CAE /* iconDelete-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconDelete-normal@2x.png"; sourceTree = "<group>"; };
+		430ED49C1833184700838CAE /* 1secondsilence.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1secondsilence.caf; sourceTree = "<group>"; };
+		430ED4A21833189000838CAE /* Beeps-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Beeps-looped.caf"; sourceTree = "<group>"; };
+		430ED4A31833189000838CAE /* Beeps.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Beeps.caf; sourceTree = "<group>"; };
+		430ED4A61833189F00838CAE /* Boings-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boings-looped.caf"; sourceTree = "<group>"; };
+		430ED4A71833189F00838CAE /* Boings.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boings.caf; sourceTree = "<group>"; };
+		430ED4A81833189F00838CAE /* BoxingBell-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BoxingBell-looped.caf"; sourceTree = "<group>"; };
+		430ED4A91833189F00838CAE /* BoxingBell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BoxingBell.caf; sourceTree = "<group>"; };
+		430ED4AA1833189F00838CAE /* Buzzer-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Buzzer-looped.caf"; sourceTree = "<group>"; };
+		430ED4AB1833189F00838CAE /* Buzzer.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buzzer.caf; sourceTree = "<group>"; };
+		430ED4B2183318B600838CAE /* Charge-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Charge-looped.caf"; sourceTree = "<group>"; };
+		430ED4B3183318B600838CAE /* Charge.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Charge.caf; sourceTree = "<group>"; };
+		430ED4B6183318BF00838CAE /* CongaParty-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CongaParty-looped.caf"; sourceTree = "<group>"; };
+		430ED4B7183318BF00838CAE /* CongaParty.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CongaParty.caf; sourceTree = "<group>"; };
+		430ED4BA183318D100838CAE /* EggTimer-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EggTimer-looped.caf"; sourceTree = "<group>"; };
+		430ED4BB183318D100838CAE /* EggTimer.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EggTimer.caf; sourceTree = "<group>"; };
+		430ED4BC183318D100838CAE /* elephant-adjusted.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "elephant-adjusted.caf"; sourceTree = "<group>"; };
+		430ED4BD183318D100838CAE /* elephant-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "elephant-looped.caf"; sourceTree = "<group>"; };
+		430ED4C2183318DE00838CAE /* Farm-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Farm-looped.caf"; sourceTree = "<group>"; };
+		430ED4C3183318DE00838CAE /* Farm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Farm.caf; sourceTree = "<group>"; };
+		430ED4C61833192500838CAE /* Harp-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Harp-looped.caf"; sourceTree = "<group>"; };
+		430ED4C71833192500838CAE /* Harp.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Harp.caf; sourceTree = "<group>"; };
+		430ED4CA1833194500838CAE /* PhoneFrenzy-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PhoneFrenzy-looped.caf"; sourceTree = "<group>"; };
+		430ED4CB1833194500838CAE /* PhoneFrenzy.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PhoneFrenzy.caf; sourceTree = "<group>"; };
+		430ED4CC1833194500838CAE /* Piano-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piano-looped.caf"; sourceTree = "<group>"; };
+		430ED4CD1833194500838CAE /* Piano.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piano.caf; sourceTree = "<group>"; };
+		430ED4D21833194E00838CAE /* PlaneChime-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaneChime-looped.caf"; sourceTree = "<group>"; };
+		430ED4D31833194E00838CAE /* PlaneChime.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PlaneChime.caf; sourceTree = "<group>"; };
+		430ED4D61833195B00838CAE /* Robot-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Robot-looped.caf"; sourceTree = "<group>"; };
+		430ED4D71833195B00838CAE /* Robot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Robot.caf; sourceTree = "<group>"; };
+		430ED4DA1833196300838CAE /* SchoolBell-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SchoolBell-looped.caf"; sourceTree = "<group>"; };
+		430ED4DB1833196300838CAE /* SchoolBell.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SchoolBell.caf; sourceTree = "<group>"; };
+		430ED4DE1833196A00838CAE /* silence-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "silence-looped.caf"; sourceTree = "<group>"; };
+		430ED4DF1833196A00838CAE /* silence.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = silence.caf; sourceTree = "<group>"; };
+		430ED4E21833197200838CAE /* TerminalAccess-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TerminalAccess-looped.caf"; sourceTree = "<group>"; };
+		430ED4E31833197200838CAE /* TerminalAccess.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TerminalAccess.caf; sourceTree = "<group>"; };
+		430ED4E61833197900838CAE /* WoodBlock-looped.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WoodBlock-looped.caf"; sourceTree = "<group>"; };
+		430ED4E71833197900838CAE /* WoodBlock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WoodBlock.caf; sourceTree = "<group>"; };
+		430ED4EA1833201600838CAE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		430F893E182ECE0E00C34FC1 /* GeoAlarmMasterCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoAlarmMasterCDTVC.h; sourceTree = "<group>"; };
+		430F893F182ECE0E00C34FC1 /* GeoAlarmMasterCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoAlarmMasterCDTVC.m; sourceTree = "<group>"; };
+		430F8941182ED89F00C34FC1 /* GeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoPoint.h; sourceTree = "<group>"; };
+		430F8942182ED89F00C34FC1 /* GeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoPoint.m; sourceTree = "<group>"; };
+		43301E0B1829554C00B7B832 /* cog_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog_01.png; sourceTree = "<group>"; };
+		43301E0C1829554C00B7B832 /* cog_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cog_01@2x.png"; sourceTree = "<group>"; };
+		43301E0D1829554C00B7B832 /* globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = globe.png; sourceTree = "<group>"; };
+		43301E0E1829554C00B7B832 /* globe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "globe@2x.png"; sourceTree = "<group>"; };
+		43301E1A1829568200B7B832 /* Alarm+CD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alarm+CD.h"; sourceTree = "<group>"; };
+		43301E1B1829568200B7B832 /* Alarm+CD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Alarm+CD.m"; sourceTree = "<group>"; };
+		43301E1D1829572F00B7B832 /* GeoPoint+CD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoPoint+CD.h"; sourceTree = "<group>"; };
+		43301E1E1829572F00B7B832 /* GeoPoint+CD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GeoPoint+CD.m"; sourceTree = "<group>"; };
+		43301E2018295A8800B7B832 /* UITableViewCellSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCellSwitch.h; sourceTree = "<group>"; };
+		43301E2118295A8800B7B832 /* UITableViewCellSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewCellSwitch.m; sourceTree = "<group>"; };
+		43301E2318296B9800B7B832 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		43301E25182AA3ED00B7B832 /* alarm02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarm02.png; sourceTree = "<group>"; };
+		43301E26182AA3ED00B7B832 /* alarm02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm02@2x.png"; sourceTree = "<group>"; };
+		43301E29182AAD1100B7B832 /* AlarmEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmEvent.h; sourceTree = "<group>"; };
+		43301E2A182AAD1100B7B832 /* AlarmEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmEvent.m; sourceTree = "<group>"; };
+		434E04801831E26400278589 /* tableViewCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableViewCell.png; sourceTree = "<group>"; };
+		434E04811831E26400278589 /* tableViewCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableViewCell@2x.png"; sourceTree = "<group>"; };
+		43622EF118287AEE00E43FA8 /* Development.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Development.storyboard; sourceTree = "<group>"; };
+		43622EF318287B0300E43FA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		43622EF518287B1300E43FA8 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		43622EF718287B1900E43FA8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		43622EF918287B2100E43FA8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		43622EFB18287B2F00E43FA8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		43622EFD18287B4A00E43FA8 /* NewsstandKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NewsstandKit.framework; path = System/Library/Frameworks/NewsstandKit.framework; sourceTree = SDKROOT; };
+		43622EFF18287B5600E43FA8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		43622F0618287C1400E43FA8 /* MapRegionSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRegionSelectionViewController.h; sourceTree = "<group>"; };
+		43622F0718287C1400E43FA8 /* MapRegionSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapRegionSelectionViewController.m; sourceTree = "<group>"; };
+		43622F0A18287D4100E43FA8 /* GeoProximityAlarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoProximityAlarm.xcdatamodel; sourceTree = "<group>"; };
+		43622F0C18287E3200E43FA8 /* NetworkActivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkActivityManager.h; sourceTree = "<group>"; };
+		43622F0D18287E3200E43FA8 /* NetworkActivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkActivityManager.m; sourceTree = "<group>"; };
+		43622F31182891AB00E43FA8 /* DeveloperAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeveloperAnnotation.h; sourceTree = "<group>"; };
+		43622F32182891AC00E43FA8 /* DeveloperAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeveloperAnnotation.m; sourceTree = "<group>"; };
+		43622F371828A4E000E43FA8 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		43622F381828A4E000E43FA8 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		43622F391828A4E000E43FA8 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		43622F3A1828A4E000E43FA8 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		43622F3B1828A4E000E43FA8 /* RemoteImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageViewController.h; sourceTree = "<group>"; };
+		43622F3C1828A4E000E43FA8 /* RemoteImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageViewController.m; sourceTree = "<group>"; };
+		43622F401828A51800E43FA8 /* CoreDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDatabase.h; sourceTree = "<group>"; };
+		43622F411828A51800E43FA8 /* CoreDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDatabase.m; sourceTree = "<group>"; };
+		43622F421828A51900E43FA8 /* FileCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileCacheManager.h; sourceTree = "<group>"; };
+		43622F431828A51900E43FA8 /* FileCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileCacheManager.m; sourceTree = "<group>"; };
+		4391087D180F1D8500D88EEA /* Geographic Proximity Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geographic Proximity Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43910880180F1D8500D88EEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		43910882180F1D8500D88EEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		43910884180F1D8500D88EEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		43910888180F1D8500D88EEA /* Geographic Proximity Alarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geographic Proximity Alarm-Info.plist"; sourceTree = "<group>"; };
+		4391088A180F1D8500D88EEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4391088C180F1D8500D88EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4391088E180F1D8500D88EEA /* Geographic Proximity Alarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geographic Proximity Alarm-Prefix.pch"; sourceTree = "<group>"; };
+		4391088F180F1D8500D88EEA /* GeoAlarmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoAlarmAppDelegate.h; sourceTree = "<group>"; };
+		43910890180F1D8500D88EEA /* GeoAlarmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoAlarmAppDelegate.m; sourceTree = "<group>"; };
+		43910892180F1D8500D88EEA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		43910894180F1D8500D88EEA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		43910896180F1D8500D88EEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43910899180F1D8500D88EEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4391089B180F1D8500D88EEA /* GeoAlarmMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoAlarmMasterViewController.h; sourceTree = "<group>"; };
+		4391089C180F1D8500D88EEA /* GeoAlarmMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoAlarmMasterViewController.m; sourceTree = "<group>"; };
+		4391089E180F1D8500D88EEA /* GeoAlarmDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeoAlarmDetailViewController.h; sourceTree = "<group>"; };
+		4391089F180F1D8500D88EEA /* GeoAlarmDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoAlarmDetailViewController.m; sourceTree = "<group>"; };
+		43A8873E1837D4BE00EFCE24 /* RemindersCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersCDTVC.h; sourceTree = "<group>"; };
+		43A8873F1837D4BE00EFCE24 /* RemindersCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersCDTVC.m; sourceTree = "<group>"; };
+		43A887411837D4E900EFCE24 /* AlarmsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmsCDTVC.h; sourceTree = "<group>"; };
+		43A887421837D4E900EFCE24 /* AlarmsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmsCDTVC.m; sourceTree = "<group>"; };
+		43CA2CB31831DA9C00F43B08 /* tableviewbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableviewbackground.png; sourceTree = "<group>"; };
+		43CA2CB51831DB3700F43B08 /* tableviewbackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableviewbackground@2x.png"; sourceTree = "<group>"; };
+		43CF7A5E182ADEC400D43AE5 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appicon.png; path = ../appicon.png; sourceTree = "<group>"; };
+		43CF7A60182ADECE00D43AE5 /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "appicon@2x.png"; path = "../appicon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4391087A180F1D8500D88EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430ED4EB1833201600838CAE /* AVFoundation.framework in Frameworks */,
+				43622EF618287B1300E43FA8 /* CoreAudio.framework in Frameworks */,
+				43301E2418296B9800B7B832 /* AudioToolbox.framework in Frameworks */,
+				43622F0018287B5600E43FA8 /* MobileCoreServices.framework in Frameworks */,
+				43622EFC18287B2F00E43FA8 /* CoreLocation.framework in Frameworks */,
+				43622EFA18287B2100E43FA8 /* CoreFoundation.framework in Frameworks */,
+				43622EF818287B1900E43FA8 /* CoreData.framework in Frameworks */,
+				43622EF418287B0300E43FA8 /* MapKit.framework in Frameworks */,
+				43910881180F1D8500D88EEA /* UIKit.framework in Frameworks */,
+				43910883180F1D8500D88EEA /* Foundation.framework in Frameworks */,
+				43910885180F1D8500D88EEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		430ED49B1833183B00838CAE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				430ED4B2183318B600838CAE /* Charge-looped.caf */,
+				430ED4B3183318B600838CAE /* Charge.caf */,
+				430ED4B6183318BF00838CAE /* CongaParty-looped.caf */,
+				430ED4B7183318BF00838CAE /* CongaParty.caf */,
+				430ED49C1833184700838CAE /* 1secondsilence.caf */,
+				430ED4A21833189000838CAE /* Beeps-looped.caf */,
+				430ED4A31833189000838CAE /* Beeps.caf */,
+				430ED4A61833189F00838CAE /* Boings-looped.caf */,
+				430ED4A71833189F00838CAE /* Boings.caf */,
+				430ED4A81833189F00838CAE /* BoxingBell-looped.caf */,
+				430ED4A91833189F00838CAE /* BoxingBell.caf */,
+				430ED4AA1833189F00838CAE /* Buzzer-looped.caf */,
+				430ED4AB1833189F00838CAE /* Buzzer.caf */,
+				430ED4BA183318D100838CAE /* EggTimer-looped.caf */,
+				430ED4BB183318D100838CAE /* EggTimer.caf */,
+				430ED4BC183318D100838CAE /* elephant-adjusted.caf */,
+				430ED4BD183318D100838CAE /* elephant-looped.caf */,
+				430ED4C2183318DE00838CAE /* Farm-looped.caf */,
+				430ED4C3183318DE00838CAE /* Farm.caf */,
+				430ED4C61833192500838CAE /* Harp-looped.caf */,
+				430ED4C71833192500838CAE /* Harp.caf */,
+				430ED4CA1833194500838CAE /* PhoneFrenzy-looped.caf */,
+				430ED4CB1833194500838CAE /* PhoneFrenzy.caf */,
+				430ED4CC1833194500838CAE /* Piano-looped.caf */,
+				430ED4CD1833194500838CAE /* Piano.caf */,
+				430ED4D21833194E00838CAE /* PlaneChime-looped.caf */,
+				430ED4D31833194E00838CAE /* PlaneChime.caf */,
+				430ED4D61833195B00838CAE /* Robot-looped.caf */,
+				430ED4D71833195B00838CAE /* Robot.caf */,
+				430ED4DA1833196300838CAE /* SchoolBell-looped.caf */,
+				430ED4DB1833196300838CAE /* SchoolBell.caf */,
+				430ED4DE1833196A00838CAE /* silence-looped.caf */,
+				430ED4DF1833196A00838CAE /* silence.caf */,
+				430ED4E21833197200838CAE /* TerminalAccess-looped.caf */,
+				430ED4E31833197200838CAE /* TerminalAccess.caf */,
+				430ED4E61833197900838CAE /* WoodBlock-looped.caf */,
+				430ED4E71833197900838CAE /* WoodBlock.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		43622F0118287B7C00E43FA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43622F31182891AB00E43FA8 /* DeveloperAnnotation.h */,
+				43622F32182891AC00E43FA8 /* DeveloperAnnotation.m */,
+				430E68E41837A067008872DA /* Alarm.h */,
+				430E68E51837A067008872DA /* Alarm.m */,
+				43622F0918287D4100E43FA8 /* GeoProximityAlarm.xcdatamodeld */,
+				430F8941182ED89F00C34FC1 /* GeoPoint.h */,
+				430F8942182ED89F00C34FC1 /* GeoPoint.m */,
+				43301E1A1829568200B7B832 /* Alarm+CD.h */,
+				43301E1B1829568200B7B832 /* Alarm+CD.m */,
+				43301E1D1829572F00B7B832 /* GeoPoint+CD.h */,
+				43301E1E1829572F00B7B832 /* GeoPoint+CD.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		43622F0218287B8300E43FA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43301E2018295A8800B7B832 /* UITableViewCellSwitch.h */,
+				43301E2118295A8800B7B832 /* UITableViewCellSwitch.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		43622F0318287B8700E43FA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				43622F0618287C1400E43FA8 /* MapRegionSelectionViewController.h */,
+				43622F0718287C1400E43FA8 /* MapRegionSelectionViewController.m */,
+				430F893E182ECE0E00C34FC1 /* GeoAlarmMasterCDTVC.h */,
+				430F893F182ECE0E00C34FC1 /* GeoAlarmMasterCDTVC.m */,
+				43A8873E1837D4BE00EFCE24 /* RemindersCDTVC.h */,
+				43A8873F1837D4BE00EFCE24 /* RemindersCDTVC.m */,
+				43A887411837D4E900EFCE24 /* AlarmsCDTVC.h */,
+				43A887421837D4E900EFCE24 /* AlarmsCDTVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		43622F0418287B8E00E43FA8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				43622F401828A51800E43FA8 /* CoreDatabase.h */,
+				43622F411828A51800E43FA8 /* CoreDatabase.m */,
+				43622F421828A51900E43FA8 /* FileCacheManager.h */,
+				43622F431828A51900E43FA8 /* FileCacheManager.m */,
+				43622F0C18287E3200E43FA8 /* NetworkActivityManager.h */,
+				43622F0D18287E3200E43FA8 /* NetworkActivityManager.m */,
+				43301E29182AAD1100B7B832 /* AlarmEvent.h */,
+				43301E2A182AAD1100B7B832 /* AlarmEvent.m */,
+				4391088F180F1D8500D88EEA /* GeoAlarmAppDelegate.h */,
+				43910890180F1D8500D88EEA /* GeoAlarmAppDelegate.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		43622F0518287B9700E43FA8 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				43910898180F1D8500D88EEA /* MainStoryboard.storyboard */,
+				43622EF118287AEE00E43FA8 /* Development.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		43622F361828A4D000E43FA8 /* GenericControllers */ = {
+			isa = PBXGroup;
+			children = (
+				43622F371828A4E000E43FA8 /* CoreDataTableViewController.h */,
+				43622F381828A4E000E43FA8 /* CoreDataTableViewController.m */,
+				43622F391828A4E000E43FA8 /* ImageViewController.h */,
+				43622F3A1828A4E000E43FA8 /* ImageViewController.m */,
+				43622F3B1828A4E000E43FA8 /* RemoteImageViewController.h */,
+				43622F3C1828A4E000E43FA8 /* RemoteImageViewController.m */,
+			);
+			name = GenericControllers;
+			sourceTree = "<group>";
+		};
+		43910874180F1D8500D88EEA = {
+			isa = PBXGroup;
+			children = (
+				43910886180F1D8500D88EEA /* Geographic Proximity Alarm */,
+				4391087F180F1D8500D88EEA /* Frameworks */,
+				4391087E180F1D8500D88EEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4391087E180F1D8500D88EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4391087D180F1D8500D88EEA /* Geographic Proximity Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4391087F180F1D8500D88EEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				430ED4EA1833201600838CAE /* AVFoundation.framework */,
+				43301E2318296B9800B7B832 /* AudioToolbox.framework */,
+				43622EFF18287B5600E43FA8 /* MobileCoreServices.framework */,
+				43622EFD18287B4A00E43FA8 /* NewsstandKit.framework */,
+				43622EFB18287B2F00E43FA8 /* CoreLocation.framework */,
+				43622EF918287B2100E43FA8 /* CoreFoundation.framework */,
+				43622EF718287B1900E43FA8 /* CoreData.framework */,
+				43622EF518287B1300E43FA8 /* CoreAudio.framework */,
+				43622EF318287B0300E43FA8 /* MapKit.framework */,
+				43910880180F1D8500D88EEA /* UIKit.framework */,
+				43910882180F1D8500D88EEA /* Foundation.framework */,
+				43910884180F1D8500D88EEA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43910886180F1D8500D88EEA /* Geographic Proximity Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				430ED49B1833183B00838CAE /* Sounds */,
+				43622F361828A4D000E43FA8 /* GenericControllers */,
+				43622F0518287B9700E43FA8 /* Layout */,
+				43622F0418287B8E00E43FA8 /* Library */,
+				43622F0318287B8700E43FA8 /* Controller */,
+				43622F0218287B8300E43FA8 /* View */,
+				43622F0118287B7C00E43FA8 /* Model */,
+				43910887180F1D8500D88EEA /* Supporting Files */,
+			);
+			path = "Geographic Proximity Alarm";
+			sourceTree = "<group>";
+		};
+		43910887180F1D8500D88EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4391089B180F1D8500D88EEA /* GeoAlarmMasterViewController.h */,
+				4391089C180F1D8500D88EEA /* GeoAlarmMasterViewController.m */,
+				434E04801831E26400278589 /* tableViewCell.png */,
+				434E04811831E26400278589 /* tableViewCell@2x.png */,
+				43CA2CB31831DA9C00F43B08 /* tableviewbackground.png */,
+				43CA2CB51831DB3700F43B08 /* tableviewbackground@2x.png */,
+				43CF7A60182ADECE00D43AE5 /* appicon@2x.png */,
+				43CF7A5E182ADEC400D43AE5 /* appicon.png */,
+				43301E25182AA3ED00B7B832 /* alarm02.png */,
+				43301E26182AA3ED00B7B832 /* alarm02@2x.png */,
+				43301E0B1829554C00B7B832 /* cog_01.png */,
+				43301E0C1829554C00B7B832 /* cog_01@2x.png */,
+				43301E0D1829554C00B7B832 /* globe.png */,
+				43301E0E1829554C00B7B832 /* globe@2x.png */,
+				4391089E180F1D8500D88EEA /* GeoAlarmDetailViewController.h */,
+				4391089F180F1D8500D88EEA /* GeoAlarmDetailViewController.m */,
+				43910888180F1D8500D88EEA /* Geographic Proximity Alarm-Info.plist */,
+				43910889180F1D8500D88EEA /* InfoPlist.strings */,
+				4391088C180F1D8500D88EEA /* main.m */,
+				4391088E180F1D8500D88EEA /* Geographic Proximity Alarm-Prefix.pch */,
+				43910892180F1D8500D88EEA /* Default.png */,
+				43910894180F1D8500D88EEA /* Default@2x.png */,
+				430ED4971833113700838CAE /* iconDelete-normal.png */,
+				430ED4981833113700838CAE /* iconDelete-normal@2x.png */,
+				430ED4951833106900838CAE /* iconDelete.png */,
+				43910896180F1D8500D88EEA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4391087C180F1D8500D88EEA /* Geographic Proximity Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439108A3180F1D8500D88EEA /* Build configuration list for PBXNativeTarget "Geographic Proximity Alarm" */;
+			buildPhases = (
+				43910879180F1D8500D88EEA /* Sources */,
+				4391087A180F1D8500D88EEA /* Frameworks */,
+				4391087B180F1D8500D88EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geographic Proximity Alarm";
+			productName = "Geographic Proximity Alarm";
+			productReference = 4391087D180F1D8500D88EEA /* Geographic Proximity Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43910875180F1D8500D88EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GeoAlarm;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Schurr Solutions";
+			};
+			buildConfigurationList = 43910878180F1D8500D88EEA /* Build configuration list for PBXProject "Geographic Proximity Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43910874180F1D8500D88EEA;
+			productRefGroup = 4391087E180F1D8500D88EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4391087C180F1D8500D88EEA /* Geographic Proximity Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4391087B180F1D8500D88EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430ED4E51833197200838CAE /* TerminalAccess.caf in Resources */,
+				430ED4E11833196A00838CAE /* silence.caf in Resources */,
+				430ED4E41833197200838CAE /* TerminalAccess-looped.caf in Resources */,
+				4391088B180F1D8500D88EEA /* InfoPlist.strings in Resources */,
+				430ED4D81833195B00838CAE /* Robot-looped.caf in Resources */,
+				430ED4C91833192500838CAE /* Harp.caf in Resources */,
+				43910893180F1D8500D88EEA /* Default.png in Resources */,
+				430ED4E91833197900838CAE /* WoodBlock.caf in Resources */,
+				430ED4DC1833196300838CAE /* SchoolBell-looped.caf in Resources */,
+				430ED4961833106900838CAE /* iconDelete.png in Resources */,
+				43910895180F1D8500D88EEA /* Default@2x.png in Resources */,
+				430ED4C5183318DE00838CAE /* Farm.caf in Resources */,
+				430ED4D11833194500838CAE /* Piano.caf in Resources */,
+				430ED4B11833189F00838CAE /* Buzzer.caf in Resources */,
+				430ED4A41833189000838CAE /* Beeps-looped.caf in Resources */,
+				430ED4AE1833189F00838CAE /* BoxingBell-looped.caf in Resources */,
+				43910897180F1D8500D88EEA /* Default-568h@2x.png in Resources */,
+				430ED4AC1833189F00838CAE /* Boings-looped.caf in Resources */,
+				430ED4C4183318DE00838CAE /* Farm-looped.caf in Resources */,
+				430ED4BF183318D100838CAE /* EggTimer.caf in Resources */,
+				430ED4CE1833194500838CAE /* PhoneFrenzy-looped.caf in Resources */,
+				430ED4D01833194500838CAE /* Piano-looped.caf in Resources */,
+				4391089A180F1D8500D88EEA /* MainStoryboard.storyboard in Resources */,
+				43622EF218287AEE00E43FA8 /* Development.storyboard in Resources */,
+				430ED4C81833192500838CAE /* Harp-looped.caf in Resources */,
+				43301E121829554C00B7B832 /* cog_01.png in Resources */,
+				430ED4BE183318D100838CAE /* EggTimer-looped.caf in Resources */,
+				430ED49D1833184700838CAE /* 1secondsilence.caf in Resources */,
+				43301E131829554C00B7B832 /* cog_01@2x.png in Resources */,
+				43301E141829554C00B7B832 /* globe.png in Resources */,
+				43301E151829554C00B7B832 /* globe@2x.png in Resources */,
+				430ED4A51833189000838CAE /* Beeps.caf in Resources */,
+				430ED4C1183318D100838CAE /* elephant-looped.caf in Resources */,
+				430ED4E81833197900838CAE /* WoodBlock-looped.caf in Resources */,
+				43301E27182AA3ED00B7B832 /* alarm02.png in Resources */,
+				430ED4B01833189F00838CAE /* Buzzer-looped.caf in Resources */,
+				43301E28182AA3ED00B7B832 /* alarm02@2x.png in Resources */,
+				43CF7A5F182ADEC400D43AE5 /* appicon.png in Resources */,
+				430ED4B9183318BF00838CAE /* CongaParty.caf in Resources */,
+				430ED4AF1833189F00838CAE /* BoxingBell.caf in Resources */,
+				430ED4991833113700838CAE /* iconDelete-normal.png in Resources */,
+				430ED4D91833195B00838CAE /* Robot.caf in Resources */,
+				43CF7A61182ADECE00D43AE5 /* appicon@2x.png in Resources */,
+				430ED4B5183318B600838CAE /* Charge.caf in Resources */,
+				43CA2CB41831DA9C00F43B08 /* tableviewbackground.png in Resources */,
+				430ED4CF1833194500838CAE /* PhoneFrenzy.caf in Resources */,
+				430ED49A1833113700838CAE /* iconDelete-normal@2x.png in Resources */,
+				430ED4AD1833189F00838CAE /* Boings.caf in Resources */,
+				43CA2CB61831DB3700F43B08 /* tableviewbackground@2x.png in Resources */,
+				434E04821831E26400278589 /* tableViewCell.png in Resources */,
+				430ED4E01833196A00838CAE /* silence-looped.caf in Resources */,
+				430ED4DD1833196300838CAE /* SchoolBell.caf in Resources */,
+				430ED4D41833194E00838CAE /* PlaneChime-looped.caf in Resources */,
+				430ED4B8183318BF00838CAE /* CongaParty-looped.caf in Resources */,
+				430ED4D51833194E00838CAE /* PlaneChime.caf in Resources */,
+				430ED4B4183318B600838CAE /* Charge-looped.caf in Resources */,
+				430ED4C0183318D100838CAE /* elephant-adjusted.caf in Resources */,
+				434E04831831E26400278589 /* tableViewCell@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43910879180F1D8500D88EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4391088D180F1D8500D88EEA /* main.m in Sources */,
+				43910891180F1D8500D88EEA /* GeoAlarmAppDelegate.m in Sources */,
+				4391089D180F1D8500D88EEA /* GeoAlarmMasterViewController.m in Sources */,
+				430E68E61837A067008872DA /* Alarm.m in Sources */,
+				439108A0180F1D8500D88EEA /* GeoAlarmDetailViewController.m in Sources */,
+				43622F0818287C1400E43FA8 /* MapRegionSelectionViewController.m in Sources */,
+				43622F0B18287D4100E43FA8 /* GeoProximityAlarm.xcdatamodeld in Sources */,
+				43622F0E18287E3200E43FA8 /* NetworkActivityManager.m in Sources */,
+				43622F33182891AC00E43FA8 /* DeveloperAnnotation.m in Sources */,
+				43622F3D1828A4E000E43FA8 /* CoreDataTableViewController.m in Sources */,
+				43622F3E1828A4E000E43FA8 /* ImageViewController.m in Sources */,
+				43A887401837D4BE00EFCE24 /* RemindersCDTVC.m in Sources */,
+				43A887431837D4E900EFCE24 /* AlarmsCDTVC.m in Sources */,
+				43622F3F1828A4E000E43FA8 /* RemoteImageViewController.m in Sources */,
+				43622F441828A51900E43FA8 /* CoreDatabase.m in Sources */,
+				43622F451828A51900E43FA8 /* FileCacheManager.m in Sources */,
+				43301E1C1829568200B7B832 /* Alarm+CD.m in Sources */,
+				43301E1F1829572F00B7B832 /* GeoPoint+CD.m in Sources */,
+				43301E2218295A8800B7B832 /* UITableViewCellSwitch.m in Sources */,
+				43301E2B182AAD1100B7B832 /* AlarmEvent.m in Sources */,
+				430F8940182ECE0E00C34FC1 /* GeoAlarmMasterCDTVC.m in Sources */,
+				430F8943182ED8A000C34FC1 /* GeoPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43910889180F1D8500D88EEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4391088A180F1D8500D88EEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		43910898180F1D8500D88EEA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43910899180F1D8500D88EEA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439108A1180F1D8500D88EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		439108A2180F1D8500D88EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		439108A4180F1D8500D88EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geographic Proximity Alarm/Geographic Proximity Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Geographic Proximity Alarm/Geographic Proximity Alarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		439108A5180F1D8500D88EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geographic Proximity Alarm/Geographic Proximity Alarm-Prefix.pch";
+				INFOPLIST_FILE = "Geographic Proximity Alarm/Geographic Proximity Alarm-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43910878180F1D8500D88EEA /* Build configuration list for PBXProject "Geographic Proximity Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439108A1180F1D8500D88EEA /* Debug */,
+				439108A2180F1D8500D88EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439108A3180F1D8500D88EEA /* Build configuration list for PBXNativeTarget "Geographic Proximity Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439108A4180F1D8500D88EEA /* Debug */,
+				439108A5180F1D8500D88EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43622F0918287D4100E43FA8 /* GeoProximityAlarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43622F0A18287D4100E43FA8 /* GeoProximityAlarm.xcdatamodel */,
+			);
+			currentVersion = 43622F0A18287D4100E43FA8 /* GeoProximityAlarm.xcdatamodel */;
+			path = GeoProximityAlarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43910875180F1D8500D88EEA /* Project object */;
+}
